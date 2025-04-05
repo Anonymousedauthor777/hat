@@ -18,3 +18,7 @@ Moreover, we show that our HAT with K-FAC approximation works remarkably better 
 ![Screenshot](./figures/hat_a9a.png)
 
 (small comment: we have tuned some methods, e.g., BFGS, more carefully  than in the original report)
+
+In addition, we report a comparison of the same method on non-linear least squares loss, where as a non-linear model we use tanh(x @ w)
+
+![Screenshot](./figures/hat_mushrooms_nlls.png)
